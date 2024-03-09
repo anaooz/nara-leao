@@ -11,15 +11,6 @@ export default function HeaderNav() {
                 </Link>
             </h1>
             <NavLinks/>
-            {/* <ul className="flex space-x-4">
-                <li>Home</li>
-                <li>Cronologia</li>
-                <li>Galeria</li>
-                <li>Discografia</li>
-                <li>Documentos</li>
-                <li>Pesquisa</li>
-                <li>Contatos</li>
-            </ul> */}
             <hr/>
         </header>
     )
