@@ -3,16 +3,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const links = [
-    { name: "Home", href: "/"},
-    { name: "Cronologia", href: "/cronologia"},
-    { name: "Galeria", href: "/galeria"},
-    { name: "Discografia", href: "/discografia"},
-    { name: "Documentos", href: "/documentos"},
-    { name: "Pesquisa", href: "/pesquisa"},
-    { name: "Contatos", href: "/contatos"}
-]
+import { links } from "@/app/ui/links"
 
 export default function NavLinks() {
     const pathname = usePathname()
