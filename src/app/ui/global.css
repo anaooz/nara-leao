@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    article h2 {
-        @apply text-[#e69e0f] font-bold text-2xl mb-3 text-left
-    }
+.anos {
+    @apply text-[#e69e0f] font-bold text-2xl mb-3 text-left
+}
 
-    article p {
-        @apply border-b-2 border-dotted border-black mb-5 pb-2
-    }
+.acontecimentos {
+    @apply border-b-2 border-dotted border-black mb-5 pb-2
+}
+
+.fotos-cronologia {
+    @apply absolute p-4 bg-yellow-300
 }
