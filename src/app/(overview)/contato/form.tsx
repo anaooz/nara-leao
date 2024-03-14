@@ -57,7 +57,7 @@ export function Form() {
 
     return(
         <>
-            <form onSubmit={handleSubmit} className="flex flex-col align-center">
+            <form onSubmit={handleSubmit} method="post" className="flex flex-col align-center">
                 <label htmlFor="name" className="required">Nome</label>
                 <input required type="text" name="name" size={40} value={name} onChange={(e) => setName(e.target.value)}/>
 
