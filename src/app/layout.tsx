@@ -1,8 +1,10 @@
-import "@/app/ui/global.css"
+import "@/app/ui/styles/global.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import HeaderNav from "./ui/headernav"
 import FooterNav from "./ui/footernav";
+import { NextUIProvider } from "@nextui-org/react";
+import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,17 +17,15 @@ export const metadata: Metadata = {
   authors: { name: "Mateus", url: "https://github.com/anaooz" }
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode;}>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className="light">
       <body className={`${inter.className} antialiased`} >
-        <HeaderNav/>
-          {children}
-        <FooterNav/>
+        <Providers>
+          <HeaderNav/>
+            {children}
+          <FooterNav/>
+        </Providers>
       </body>
     </html>
   );

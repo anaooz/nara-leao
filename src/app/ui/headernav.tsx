@@ -1,4 +1,4 @@
-import { comfortaa } from "@/app/ui/fonts"
+import { comfortaa } from "@/app/ui/styles/fonts"
 import Link from "next/link"
 import NavLinks from "./nav-links"
 

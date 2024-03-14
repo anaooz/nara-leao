@@ -5,5 +5,5 @@ export const links = [
     { name: "Discografia", href: "/discografia"},
     { name: "Documentos", href: "/documentos"},
     { name: "Pesquisa", href: "/pesquisa"},
-    { name: "Contatos", href: "/contatos"}
+    { name: "Contato", href: "/contato"}
 ]
