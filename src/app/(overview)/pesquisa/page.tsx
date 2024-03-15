@@ -1,9 +1,10 @@
-import PageName from "@/app/ui/pagename";
+import PageTitle from "@/app/ui/pagename";
+
 
 export default function Bibliografia() {
     return(
         <>
-            <PageName name="Bibliografia"/>
+            <PageTitle name="Bibliografia"/>
             <section className="conteudo-pagina text-justify [&>p]:my-4">
                 <p><strong>BARCELOS, Jalusa.</strong> <i>CPC da UNE</i> - uma história de paixão e consciência. Rio de Janeiro: Nova Fronteira, 1994.</p>
                 <p><strong>CABRAL, Sérgio.</strong> &quot;A figura de Nara Leão&quot; In NAVES, Santuza Cambraia e DUARTE, Paulo Sérgio. (org.). <i>Do Samba-canção à Tropicália.</i> Rio de Janeiro: Relume Dumará: FAPERJ, 2003, pp.63-67.</p>

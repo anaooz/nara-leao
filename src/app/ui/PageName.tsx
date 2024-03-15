@@ -1,4 +1,4 @@
-export default function PageName({ name } : { name: string }) 
+export default function PageTitle({ name } : { name: string }) 
 {
     return(
         <section className="flex justify-center">

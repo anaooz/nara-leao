@@ -1,7 +1,8 @@
-import PageName from "@/app/ui/pagename";
+
 import { Metadata } from "next";
 import { MdEmail } from "react-icons/md";
 import { Form } from "./form";
+import PageTitle from "@/app/ui/pagename";
 
 export const metadata: Metadata = {
     title: "Contato"
@@ -11,7 +12,7 @@ export default function Contato() {
 
     return(
         <>
-            <PageName name="Contato"/>
+            <PageTitle name="Contato"/>
             <section className="conteudo-pagina flex justify-between">
                 <div className="text-justify w-[40%]">
                     <h3 className="text-xl mb-2">Obrigado por entrar em contato</h3>

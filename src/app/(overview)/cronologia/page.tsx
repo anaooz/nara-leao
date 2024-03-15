@@ -1,8 +1,9 @@
-import PageName from "@/app/ui/pagename"
+
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import poster from "@/app/imgs/cantolivredenaraleao.jpg"
+import PageTitle from "@/app/ui/pagename"
 
 export const metadata: Metadata = {
     title: "Cronologia"
@@ -12,7 +13,7 @@ export default function Cronologia() {
 
     return(
         <>
-            <PageName name="Cronologia"/>
+            <PageTitle name="Cronologia"/>
             <article className="flex flex-col conteudo-pagina [&>p]:pb-4">
                 <h2 className="anos">19 de janeiro de 1942</h2>
                 <p className="acontecimentos">Nasce em Vitória, capital do Espírito Santo, Nara Lofego Leão. Nara era a segunda filha do casamento entre Dr. Jairo Leão, advogado, e Altina Lofego Leão, professora. Sua irmã mais velha era Danuza Lofego Leão.</p>
