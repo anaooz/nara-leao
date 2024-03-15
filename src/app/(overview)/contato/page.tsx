@@ -2,7 +2,7 @@
 import { Metadata } from "next";
 import { MdEmail } from "react-icons/md";
 import { Form } from "./form";
-import PageTitle from "@/app/ui/pagename";
+import PageTitle from "@/app/ui/pagetitle";
 
 export const metadata: Metadata = {
     title: "Contato"

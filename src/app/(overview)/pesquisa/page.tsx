@@ -1,4 +1,4 @@
-import PageTitle from "@/app/ui/pagename";
+import PageTitle from "@/app/ui/pagetitle";
 
 
 export default function Bibliografia() {
