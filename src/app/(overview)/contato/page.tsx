@@ -1,4 +1,4 @@
-import PageName from "@/app/ui/PageName";
+import PageName from "@/app/ui/pagename";
 import { Metadata } from "next";
 import { MdEmail } from "react-icons/md";
 import { Form } from "./form";
