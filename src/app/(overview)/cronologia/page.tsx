@@ -1,8 +1,8 @@
+import PageName from "@/app/ui/pagename"
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import poster from "@/app/imgs/cantolivredenaraleao.jpg"
-import PageName from "@/app/ui/pagename"
 
 export const metadata: Metadata = {
     title: "Cronologia"
