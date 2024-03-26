@@ -32,6 +32,18 @@
     @apply content-["*"] text-red-600
 }
 
+.documentos-section {
+    @apply my-6 border-b border-black border-dotted flex
+}
+
+.documentos-text {
+    @apply w-1/4 [&>h3]:text-xl [&>p]:text-xs self-center
+}
+
+.documentos-imgs {
+    @apply my-3 mx-2 border border-black
+}
+
 @layer base{
     input, textarea {
         @apply border border-black
