@@ -14,6 +14,12 @@ const nextConfig = {
                 port: "",
                 pathname: "/_imgs/documentos/**"
             },
+            {
+                protocol: "http",
+                hostname: "www.naraleao.com.br",
+                port: "",
+                pathname: "/_imgs/galeria/videos/**"
+            },
         ]
     }
 };

@@ -12,10 +12,10 @@ import Link from "next/link"
 import React from "react"
 
 interface Slide {
-    [key: string]: string
+    [key: string]: [string, number]
 }
 
-export default function Carousel({ slide, children } : {slide: Slide, children: React.ReactNode}) {
+export default function Carousel({ slide, children }: {slide: Slide, children: React.ReactNode}) {
     const {isOpen, onOpenChange, onOpen, onClose} = useDisclosure()
 
     const slideArray = Object.entries(slide).map(([key, value]) => ({ key, value }));
@@ -42,14 +42,14 @@ export default function Carousel({ slide, children } : {slide: Slide, children: 
                                     <SwiperSlide key={index}>
                                         <ModalHeader>{image.key}</ModalHeader>
                                         <ModalBody >
-                                            <Image src={image.value} alt={image.key} width={400} height={100} className="flex self-center mb-7"/>
+                                            <Image src={image.value[0]} alt={image.key} width={400} height={100} className="flex self-center mb-7"/>
                                         </ModalBody>
                                     </SwiperSlide>
                                 )
                             })}
                         </Swiper>
                     <ModalFooter>
-                            <Button onClick={onClose}>Close</Button>
+                            <Button onClick={onClose}>Fechar</Button>
                         </ModalFooter>
                     </ModalContent>
                 </Modal>
