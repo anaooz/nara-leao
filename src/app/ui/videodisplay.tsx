@@ -1,6 +1,6 @@
 "use client"
 
-import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react"
+import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@heroui/react"
 import Link from "next/link"
 import React from "react"
 

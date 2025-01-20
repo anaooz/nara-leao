@@ -1,7 +1,7 @@
 "use client"
 
 import { FormEvent, FormEventHandler, useState } from "react"
-import { Button } from "@nextui-org/button"
+import { Button } from "@heroui/button"
 
 export function Form() {
     const [name, setName] = useState("")

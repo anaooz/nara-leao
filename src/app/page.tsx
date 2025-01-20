@@ -10,6 +10,12 @@ export default function Home() {
           <p>Algumas mudanças a se mencionar serão/foram citadas aqui:</p>
           <ul className="list-disc list-inside pb-3">
             <li>Otimização de imagens</li>
+            <li>Adição de favicon baseado na caricatura de Lan</li>
+            <li>Adição de nova fonte em Pesquisa</li>
+            <li>Recuperação de vídeos utilizando Wayback Machine</li>
+            <li>Atualização da cronologia com o documentário &quot;O Canto Livre de Nara Leão&quot;</li>
+            <li><s>Adição de links para os álbuns nas plataformas digitais</s></li>
+            <li><s>Modo escuro</s></li>
           </ul>
           <p>Nara é uma das cantoras mais importantes da música brasileira, cantou o que quis: desde o morro até a música &quot;de elite&quot;, deu luz à grandes cantores que até hoje são conhecidos, como: Chico Buarque, Maria Bethânia e Caetano Veloso; é conhecida como a Musa da Bossa Nova e seu nome está cravado na história da Bossa Nova, MPB e no movimento Tropicália. </p>
           <p>Nara nos deixou em 1989, mas segue viva nos corações dos amantes da música brasileira.</p>

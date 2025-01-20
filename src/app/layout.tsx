@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import HeaderNav from "./ui/headernav"
 import FooterNav from "./ui/footernav";
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
