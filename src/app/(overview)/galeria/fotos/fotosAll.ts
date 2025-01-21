@@ -1,8 +1,8 @@
 import manchete759 from "@/app/imgs/revistas/manchete759.jpg"
-import { StaticImageData } from "next/image";
+//import { StaticImageData } from "next/image";
 
 interface Slide {
-    [key: string]: [string | StaticImageData, number];
+    [key: string]: [string , number];
 }
 
 export const fotos40: Slide = {
@@ -83,7 +83,7 @@ export const fotos60: Slide = {
     "Nara Leão em ensaio fotográfico, 1967":["http://www.naraleao.com.br/_imgs/galeria/fotos/nl_19674.jpg", 90],
     "Nara Leão, Caetano Veloso, Gilberto Gil e os Beat Boys no programa Divino Maravilhoso, 1968":["http://www.naraleao.com.br/_imgs/galeria/fotos/nl_1968.jpg", 90],
     "Chico Buarque e Nara Leão na casa de Chico":["http://www.naraleao.com.br/_imgs/galeria/fotos/nl_1969.jpg", 90],
-    "Nara e Chico na capa da revista Manchete, nº 759 de 1966": [manchete759, 90]
+    //"Nara e Chico na capa da revista Manchete, nº 759 de 1966": [manchete759, 90]
 }
 
 export const fotos70: Slide = {
