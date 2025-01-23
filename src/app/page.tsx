@@ -16,6 +16,7 @@ export default function Home() {
             <li>Atualização da cronologia com o documentário &quot;O Canto Livre de Nara Leão&quot;</li>
             <li><s>Adição de links para os álbuns nas plataformas digitais</s></li>
             <li><s>Modo escuro</s></li>
+            <li><s>Responsividade em dispositivos móveis</s></li>
           </ul>
           <p>Nara é uma das cantoras mais importantes da música brasileira, cantou o que quis: desde o morro até a música &quot;de elite&quot;, deu luz à grandes cantores que até hoje são conhecidos, como: Chico Buarque, Maria Bethânia e Caetano Veloso; é conhecida como a Musa da Bossa Nova e seu nome está cravado na história da Bossa Nova, MPB e no movimento Tropicália. </p>
           <p>Nara nos deixou em 1989, mas segue viva nos corações dos amantes da música brasileira.</p>

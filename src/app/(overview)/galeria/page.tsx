@@ -54,7 +54,7 @@ export default async function Galeria() {
                                     </div>
                             ))}
                         </section>
-                        <Link href="galeria/videos" className="text-black left-[70%] hover:underline"><IoMdArrowRoundForward/><p>todas os vídeos</p></Link>
+                        <Link href="galeria/videos" className="text-black left-[70%] hover:underline"><IoMdArrowRoundForward/><p>todos os vídeos</p></Link>
                     </div>
                 </section>
             </div>

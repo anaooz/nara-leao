@@ -1,0 +1,15 @@
+export const videos = {
+    "ReCCGLrkues":["'Samba de uma nota só' e 'Samba do Avião'", "01"],
+    "lpaSeJyNK0c":["Além do Horizonte, 1978", "02"],
+    "Y4PJN0zIBlE":["Nara Leão e Roberto Menescal - Por Causa de Você", "03"],
+    "7ITiDPGH9qE":["Com Açúcar, Com Afeto - Nara Leão", "04"],
+    "oy_cGmnr_yk":["Dueto - Chico Buarque & Nara Leão", "05"],
+    "ZFf623HWhJ4":["A Banda - Chico Buarque e Nara Leão - 1966", "06"],
+    "glIda5l3i1o":["Nara Leão e Erasmo Carlos - 'Meu ego' (1977)", "07"],
+    "MsY0QsgTQyQ":["'A Estrada e o Violeiro' com Sidney Miller", "08"],
+    "xqtGGdXyum0":["'Luz Negra' com Abel Ferreira", "09"],
+    "Adf1xNSx7is":["'Trecho de 'Carcará' com José Cândido e João do Vale", "10"],
+    "BEDOuVbraaY":["Nara Leão - As tears go by (Rolling Stones)", "11"],
+    "KA7iymaw6Cg":["Joana Francesa - Nara Leão", "12"],
+    "qLwWfTAggiE":["Camisa Amarela - Nara Leão", "13"],
+}

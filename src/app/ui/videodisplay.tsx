@@ -14,8 +14,8 @@ export default function VideoDisplayer({
         <Link
             href="#"
         >
-            <div onClick={onOpen}>
-                {children}
+            <div onClick={onOpen} className="flex flex-col text-center items-center p-2">
+                    {children}
                 <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="5xl">
                     <ModalContent>
                         <ModalHeader>{titulo}</ModalHeader>
