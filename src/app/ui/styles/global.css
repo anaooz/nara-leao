@@ -27,7 +27,6 @@
     @apply mx-[25%] mt-5
 }
 
-
 .link-externo {
     @apply text-blue-500 hover:underline
 }
@@ -46,6 +45,15 @@
 
 .documentos-imgs {
     @apply my-3 mx-2 border border-black
+}
+
+.sombra:hover {
+    box-shadow:
+    0px 0px 0.9px rgba(0, 0, 0, 0.077),
+    0px 0px 2.5px rgba(0, 0, 0, 0.102),
+    0px 0px 6px rgba(0, 0, 0, 0.121),
+    0px 0px 20px rgba(0, 0, 0, 0.2)
+;
 }
 
 @layer base{

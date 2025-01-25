@@ -3,6 +3,9 @@ import { StaticImageData } from "next/image";
 
 interface Slide {
     [key: string]: [string | StaticImageData["src"], number];
+    // legenda: string,
+    // url: string,
+    // tamanho: number
 }
 
 export const fotos40: Slide = {
