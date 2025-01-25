@@ -9,7 +9,7 @@ export const videos = {
     "MsY0QsgTQyQ":["'A Estrada e o Violeiro' com Sidney Miller", "08"],
     "xqtGGdXyum0":["'Luz Negra' com Abel Ferreira", "09"],
     "Adf1xNSx7is":["'Trecho de 'Carcará' com José Cândido e João do Vale", "10"],
-    "BEDOuVbraaY":["Nara Leão - As tears go by (Rolling Stones)", "11"],
+    "BEDOuVbraaY":["Nara Leão - As Tears Go By (Rolling Stones)", "11"],
     "KA7iymaw6Cg":["Joana Francesa - Nara Leão", "12"],
     "qLwWfTAggiE":["Camisa Amarela - Nara Leão", "13"],
 }
