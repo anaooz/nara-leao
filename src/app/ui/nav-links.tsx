@@ -22,7 +22,7 @@ export default function NavLinks() {
                             }
                         )}
                     >
-                        <p>{link.name}</p>
+                        <p className="hover:border-b-4">{link.name}</p>
                     </Link>
                 )
             })}

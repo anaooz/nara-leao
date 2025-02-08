@@ -4,7 +4,7 @@ import { fotos } from "@/app/(overview)/galeria/fotos"
 import { videos } from "@/app/(overview)/galeria/videos"
 import Carousel from "@/app/ui/carousel"
 import { Link } from "@heroui/react"
-import { IoMdArrowRoundForward } from "react-icons/io"
+import { GoArrowRight } from "react-icons/go"
 import VideoDisplayer from "@/app/ui/videodisplay"
 import { Metadata } from "next"
 
@@ -40,7 +40,7 @@ export default async function Galeria() {
                                     })}
                                 </section>
                             </Carousel>
-                            <Link href="galeria/fotos" className="text-black left-[72%] hover:underline"><IoMdArrowRoundForward/><p>todas as fotos</p></Link>
+                            <Link href="galeria/fotos" className="text-black left-[72%] hover:underline"><GoArrowRight/><p>todas as fotos</p></Link>
                     </div>
                     <div className="w-1/2">
                         <h2 className="titulo-galeria">Vídeos</h2>
@@ -54,7 +54,7 @@ export default async function Galeria() {
                                     </div>
                             ))}
                         </section>
-                        <Link href="galeria/videos" className="text-black left-[70%] hover:underline"><IoMdArrowRoundForward/><p>todos os vídeos</p></Link>
+                        <Link href="galeria/videos" className="text-black left-[70%] hover:underline"><GoArrowRight/><p>todos os vídeos</p></Link>
                     </div>
                 </section>
             </div>

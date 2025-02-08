@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.album-infos {
+    @apply w-1/4
+}
+
+.album-musicas {
+    @apply w-2/4 mx-2
+}
+
+.album-ficha {
+    @apply w-1/4
+}
+
+.titulo-infos {
+    @apply text-xl mb-3 border-b border-black
+}
+
+.musicas {
+    @apply text-base border-b border-black border-dotted px-2
+}
+
+.links {
+    @apply grid grid-cols-3 gap-y-2
+}
+
+.plataformas {
+    @apply flex flex-col items-center text-center
+}
+
+:hover.plataformas {
+    @apply underline
+}
+
+.ficha {
+    @apply border-b-1 border-black my-2
+}
+
+.link-textos {
+    @apply flex flex-col my-8
+}
+
+.link-textos > a {
+    @apply border-black border-y pl-4 flex items-center
+}
+
+:hover.link-textos > a:only-child {
+    @apply visible
+}
+
+.textos {
+    @apply w-3/4
+}
+
+.musica {
+    @apply flex
+}
+
+.letra-musica {
+    @apply max-h-0 overflow-hidden
+}
+
+.letra-musica.show {
+    @apply max-h-full text-justify px-7 my-2
+}

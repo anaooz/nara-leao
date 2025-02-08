@@ -7,7 +7,7 @@ import manhadeliberdade from "@/app/imgs/albuns/manhadeliberdade.jpg"
 import ventodemaio from "@/app/imgs/albuns/ventodemaio.jpg"
 import nara1967 from "@/app/imgs/albuns/nara1967.jpg"
 import nara1968 from "@/app/imgs/albuns/nara1968.jpg"
-import coisadomundo from "@/app/imgs/albuns/coisadomundo.jpg"
+import coisasdomundo from "@/app/imgs/albuns/coisasdomundo.jpg"
 import dezanosdepois from "@/app/imgs/albuns/dezanosdepois.jpg"
 import meuprimeiroamor from "@/app/imgs/albuns/meuprimeiroamor.jpg"
 import osmeusamigossaoumbarato from "@/app/imgs/albuns/osmeusamigossaoumbarato.jpg"
@@ -41,7 +41,7 @@ export const albums: Album[] = [
     { link: "vento-de-maio", capa: ventodemaio, titulo: "Vento de Maio", ano: 1967 },
     { link: "nara-1967", capa: nara1967, titulo: "Nara", ano: 1967 },
     { link: "nara-1968", capa: nara1968, titulo: "Nara", ano: 1968 },
-    { link: "coisa-do-mundo", capa: coisadomundo, titulo: "Coisa do Mundo", ano: 1969 },
+    { link: "coisas-do-mundo", capa: coisasdomundo, titulo: "Coisas do Mundo", ano: 1969 },
     { link: "dez-anos-depois", capa: dezanosdepois, titulo: "Dez Anos Depois", ano: 1971 },
     { link: "meu-primeiro-amor", capa: meuprimeiroamor, titulo: "Meu Primeiro Amor", ano: 1975 },
     { link: "os-meus-amigos-sao-um-barato", capa: osmeusamigossaoumbarato, titulo: "Os Meus Amigos São Um Barato", ano: 1977 },

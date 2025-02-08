@@ -1,20 +1,21 @@
 import Image from "next/image";
 import nara from "@/app/imgs/nara-home.png"
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
       <section className="flex mx-12">
         <article className="text-justify [&>p]:pb-3">
-          <p>Esse é um projeto inteiramente educacional utilizando Next.js, o objetivo é revitalizar o site dedicado à cantora Nara Leão, trazendo o site para uma tecnologia mais moderna e fazendo alterações e atualizações em algumas partes do site; esse projeto é inteiramente baseado no <a target="_blank" href="http://www.naraleao.com.br/index.php" className="link-externo">site original</a> dedicado à cantora e certas partes do site que não estavam mais funcionando foram recuperadas com a ajuda do <a target="_blank" href="https://web.archive.org/web/20120120021533/http://www.naraleao.com.br/index.php" className="link-externo">Wayback Machine</a>.</p>
+          <p>Esse é um projeto inteiramente educacional utilizando Next.js, o objetivo é revitalizar o site dedicado à cantora Nara Leão, trazendo o site para uma tecnologia mais moderna e fazendo alterações e atualizações em algumas partes do site; esse projeto é inteiramente baseado no <Link target="_blank" href="http://www.naraleao.com.br/index.php" className="link-externo">site original</Link> dedicado à cantora e certas partes do site que não estavam mais funcionando foram recuperadas com a ajuda do <Link target="_blank" href="https://web.archive.org/web/20120120021533/http://www.naraleao.com.br/index.php" className="link-externo">Wayback Machine</Link>.</p>
           <p>Algumas mudanças a se mencionar serão/foram citadas aqui:</p>
           <ul className="list-disc list-inside pb-3">
             <li>Otimização de imagens</li>
-            <li>Adição de favicon baseado na caricatura de Lan</li>
+            <li>Adição de favicon baseado na caricatura do cartunista Lan</li>
             <li>Adição de nova fonte em Pesquisa</li>
             <li>Recuperação de vídeos utilizando Wayback Machine</li>
             <li>Atualização da cronologia com o documentário &quot;O Canto Livre de Nara Leão&quot;</li>
-            <li><s>Adição de links para os álbuns nas plataformas digitais</s></li>
+            <li>Adição de links para os álbuns nas plataformas digitais</li>
             <li><s>Modo escuro</s></li>
             <li><s>Responsividade em dispositivos móveis</s></li>
           </ul>
