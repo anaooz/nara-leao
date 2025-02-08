@@ -33,9 +33,11 @@ export default function Musica({ musica, index }: Readonly<MusicaItemProps>) {
                     <p><span className="font-semibold">{index + 1}.</span> {musica.nome}</p>
                     <small>{musica.compositor}</small>
                 </div>
-                <button onClick={handleToggleLyrics} className="flex flex-col justify-center">
-                    {showLyrics ? <GoChevronDown size={24} /> : <GoChevronRight size={24} />}
-                </button>
+                {musica.letra ? 
+                    <button onClick={handleToggleLyrics} className="flex flex-col justify-center">
+                        {showLyrics ? <GoChevronDown size={24} /> : <GoChevronRight size={24} />}
+                    </button> : <></>
+                }
             </div>
             {showLyrics && (
                 <div className={`letra-musica ${showLyrics ? "show" : ""}`}>
