@@ -52,7 +52,7 @@ export const albums: Album[] = [
     { link: "nasci-para-bailar", capa: nasciparabailar, titulo: "Nasci Para Bailar", ano: 1982 },
     { link: "meu-samba-encabulado", capa: meusambaencabulado, titulo: "Meu Samba Encabulado", ano: 1983 },
     { link: "abracos-e-beijinhos", capa: abracosebeijinhos, titulo: "Abraços e Beijinhos e Carinhos Sem Ter Fim...", ano: 1984 },
-    { link: "garota-de- ipanema", capa: garotadeipanema, titulo: "Garota de Ipanema", ano: 1985 },
+    { link: "garota-de-ipanema", capa: garotadeipanema, titulo: "Garota de Ipanema", ano: 1985 },
     { link: "um-cantinho-um-violao", capa: umcantinhoumviolao, titulo: "Um Cantinho, Um Violão", ano: 1985 },
     { link: "meus-sonhos-dourados", capa: meussonhosdourados, titulo: "Meus Sonhos Dourados", ano: 1987 },
     { link: "my-foolish-heart", capa: myfoolishheart, titulo: "My Foolish Heart", ano: 1989 }
